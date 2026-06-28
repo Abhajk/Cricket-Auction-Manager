@@ -21,8 +21,6 @@ class Player {
         this.soldPrice = soldPrice;
         this.isSold = isSold;
         this.team = null;
-
-        // Additional Properties
         this.experience = experience;
         this.runs = runs;
         this.wickets = wickets;
