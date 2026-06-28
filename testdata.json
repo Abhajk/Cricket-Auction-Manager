@@ -1,92 +1,122 @@
 [
-    {
-        "id": 1,
-        "name": "Virat Kohli",
-        "age": 36,
-        "role": "Batsman",
-        "basePrice": 200,
-        "soldPrice": 0,
-        "isSold": false
-    },
-    {
-        "id": 2,
-        "name": "Rohit Sharma",
-        "age": 37,
-        "role": "Batsman",
-        "basePrice": 180,
-        "soldPrice": 0,
-        "isSold": false
-    },
-    {
-        "id": 3,
-        "name": "Shubman Gill",
-        "age": 25,
-        "role": "Batsman",
-        "basePrice": 170,
-        "soldPrice": 0,
-        "isSold": false
-    },
-    {
-        "id": 4,
-        "name": "KL Rahul",
-        "age": 33,
-        "role": "Batsman",
-        "basePrice": 160,
-        "soldPrice": 0,
-        "isSold": false
-    },
-    {
-        "id": 5,
-        "name": "Jasprit Bumrah",
-        "age": 31,
-        "role": "Bowler",
-        "basePrice": 220,
-        "soldPrice": 0,
-        "isSold": false
-    },
-    {
-        "id": 6,
-        "name": "Mohammed Shami",
-        "age": 34,
-        "role": "Bowler",
-        "basePrice": 190,
-        "soldPrice": 0,
-        "isSold": false
-    },
-    {
-        "id": 7,
-        "name": "Arshdeep Singh",
-        "age": 26,
-        "role": "Bowler",
-        "basePrice": 150,
-        "soldPrice": 0,
-        "isSold": false
-    },
-    {
-        "id": 8,
-        "name": "Kuldeep Yadav",
-        "age": 30,
-        "role": "Bowler",
-        "basePrice": 170,
-        "soldPrice": 0,
-        "isSold": false
-    },
-    {
-        "id": 9,
-        "name": "Hardik Pandya",
-        "age": 31,
-        "role": "AllRounder",
-        "basePrice": 250,
-        "soldPrice": 0,
-        "isSold": false
-    },
-    {
-        "id": 10,
-        "name": "Ravindra Jadeja",
-        "age": 36,
-        "role": "AllRounder",
-        "basePrice": 230,
-        "soldPrice": 0,
-        "isSold": false
-    }
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "age": 36,
+    "role": "Batsman",
+    "basePrice": 200,
+    "soldPrice": 0,
+    "isSold": false,
+    "experience": 18,
+    "runs": 14000,
+    "wickets": 4
+  },
+  {
+    "id": 2,
+    "name": "Rohit Sharma",
+    "age": 37,
+    "role": "Batsman",
+    "basePrice": 180,
+    "soldPrice": 0,
+    "isSold": false,
+    "experience": 17,
+    "runs": 11000,
+    "wickets": 9
+  },
+  {
+    "id": 3,
+    "name": "Shubman Gill",
+    "age": 25,
+    "role": "Batsman",
+    "basePrice": 170,
+    "soldPrice": 0,
+    "isSold": false,
+    "experience": 6,
+    "runs": 3200,
+    "wickets": 0
+  },
+  {
+    "id": 4,
+    "name": "KL Rahul",
+    "age": 33,
+    "role": "Batsman",
+    "basePrice": 160,
+    "soldPrice": 0,
+    "isSold": false,
+    "experience": 10,
+    "runs": 8000,
+    "wickets": 0
+  },
+  {
+    "id": 5,
+    "name": "Jasprit Bumrah",
+    "age": 31,
+    "role": "Bowler",
+    "basePrice": 220,
+    "soldPrice": 0,
+    "isSold": false,
+    "experience": 10,
+    "runs": 350,
+    "wickets": 420
+  },
+  {
+    "id": 6,
+    "name": "Mohammed Shami",
+    "age": 34,
+    "role": "Bowler",
+    "basePrice": 190,
+    "soldPrice": 0,
+    "isSold": false,
+    "experience": 12,
+    "runs": 600,
+    "wickets": 450
+  },
+  {
+    "id": 7,
+    "name": "Arshdeep Singh",
+    "age": 26,
+    "role": "Bowler",
+    "basePrice": 150,
+    "soldPrice": 0,
+    "isSold": false,
+    "experience": 5,
+    "runs": 120,
+    "wickets": 180
+  },
+  {
+    "id": 8,
+    "name": "Kuldeep Yadav",
+    "age": 30,
+    "role": "Bowler",
+    "basePrice": 170,
+    "soldPrice": 0,
+    "isSold": false,
+    "experience": 9,
+    "runs": 500,
+    "wickets": 320
+  },
+  {
+    "id": 9,
+    "name": "Hardik Pandya",
+    "age": 31,
+    "role": "AllRounder",
+    "basePrice": 250,
+    "soldPrice": 0,
+    "isSold": false,
+    "experience": 10,
+    "runs": 4500,
+    "wickets": 190
+  },
+  {
+    "id": 10,
+    "name": "Ravindra Jadeja",
+    "age": 36,
+    "role": "AllRounder",
+    "basePrice": 230,
+    "soldPrice": 0,
+    "isSold": false,
+    "experience": 17,
+    "runs": 6500,
+    "wickets": 580
+  }
 ]

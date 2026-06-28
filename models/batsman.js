@@ -3,8 +3,10 @@ import players from "../testdata.json" with { type: "json" };
 
 class Batsman extends Player {
 
-    constructor(id, name, age, role, basePrice, soldPrice, isSold) {
-        super(id, name, age, role, basePrice, soldPrice, isSold);
+    constructor(id,name,age,role,basePrice,soldPrice,isSold,experience,runs,wickets) {
+
+        super(id,name,age,role,basePrice,soldPrice,isSold,experience,runs,wickets);
+
     }
 
 }
@@ -19,7 +21,10 @@ const batsmen = players
         player.role,
         player.basePrice,
         player.soldPrice,
-        player.isSold
+        player.isSold,
+        player.experience,
+        player.runs,
+        player.wickets
     ));
 
 export default batsmen;

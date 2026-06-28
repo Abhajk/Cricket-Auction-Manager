@@ -1,6 +1,17 @@
 class Player {
 
-    constructor(id, name, age, role, basePrice, soldPrice, isSold) {
+    constructor(
+        id,
+        name,
+        age,
+        role,
+        basePrice,
+        soldPrice,
+        isSold,
+        experience,
+        runs,
+        wickets
+    ) {
 
         this.id = id;
         this.name = name;
@@ -11,6 +22,10 @@ class Player {
         this.isSold = isSold;
         this.team = null;
 
+        // Additional Properties
+        this.experience = experience;
+        this.runs = runs;
+        this.wickets = wickets;
     }
 
 }
