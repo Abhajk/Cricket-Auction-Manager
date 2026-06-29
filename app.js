@@ -18,13 +18,13 @@ players.forEach((player, index) => {
         AuctionUtility.conductAuction(
             player,
             team1,
-            player.basePrice + 50
+            player.basePrice + 5000
         );
     } else {
         AuctionUtility.conductAuction(
             player,
             team2,
-            player.basePrice + 50
+            player.basePrice + 5000
         );
     }
 
